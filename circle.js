@@ -1,13 +1,14 @@
-circle.js
+// import using require
 const Shape =require("./shape")
 
-
+//declare class
 class Circle extends Shape {
+   super(radius){
+   this.radius=radius;
+   }
 
-   
-
-    calculateArea() {
-        console.log('calculateArea');
+       calculateArea() {
+      console.log('calculateArea');
     }
 
 }
