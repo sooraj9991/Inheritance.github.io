@@ -1,4 +1,4 @@
-// declare class
+shape.js // declare class
 class Shape {
     constructor(color) {
         this.color = 'color';
@@ -15,5 +15,6 @@ class Shape {
     }
 } 
 
-module.exports = shape;
+// export class using module.exports
+module.exports = Shape;
 
