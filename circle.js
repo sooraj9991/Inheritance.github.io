@@ -4,7 +4,7 @@ const Shape =require("./shape")
 //declare class
 class Circle extends Shape {
    super(radius){
-   this.radius=radius;
+   this.radius= 'radius';
    }
 
        calculateArea() {
